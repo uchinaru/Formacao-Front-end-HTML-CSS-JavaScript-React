@@ -1,0 +1,482 @@
+/* External CSS */
+
+body{
+    padding-bottom: 600px;
+}
+
+h3{
+    color: greenyellow;
+}
+
+.paragraph{
+    background-color: #000;
+    color: aqua;
+    font-size: 30px;
+}
+
+#exclusive-title{
+    background-color: purple;
+    color: gold;
+    padding: 10px;
+}
+
+/* Nome das cores */
+
+.color-name{
+    color: crimson;
+}
+
+/* Cores em HEX */
+
+.hex{
+    color: #333599;
+}
+
+.hex2{
+    color: #50b599;
+}
+
+.simple-hex{
+    color: #a98;
+}
+
+.simple-hex-2{
+    color: #888;
+}
+
+/* Cores RGB */
+.rgb{
+    color: rgb(211, 175, 24);
+}
+
+.rgb-2{
+    color: rgb(158, 55, 10)
+}
+
+/* Cores RGBA */
+
+.rgba{
+    color: rgba(100, 20, 99, 0.6);
+}
+
+.rgba-2{
+    color: rgba(100, 50, 255, 0.6);
+}
+
+/* hsl */
+
+.hsl{
+    color: hsl(40, 85%, 29%);
+}
+
+.hsl-2{
+    color: hsl(15, 65%, 41%);
+}
+
+/* Background-color */
+
+#bg{
+    height: 100px;
+    border: black solid 2px;
+    background-color: rgba(0, 255, 21, 0.6);
+    align-items: center;
+    display: flex;
+}
+
+.bg-2{
+    background-color: #000;
+    color: rgb(105, 15, 189);
+}
+
+/* Background-color opacity*/
+
+#bg-opacity{
+    background-color: rgb(58, 58, 146);
+    opacity: 0.3;
+}
+
+#bg-opacity-2{
+    background-color: rgb(173, 163, 17);
+    opacity: 0.7;
+}
+
+#bg-opacity-2 p{
+    color: #000;
+}
+
+/* BACKGRAOUND RGBA COM OPACIDADE */
+
+#rgba-opacidade{
+    background-color: rgba(150, 50, 120, 0.2);
+}
+
+#rgba-opacidade h3{
+    color: #000;
+}
+
+/* BG IMAGE */
+
+.bg-image{
+    background-image: url("../img/atmosphere.png");
+    padding: 10px;
+    color: #fff;
+}
+
+/* Centralizar img do bg */
+.centralized-img, .not-centralized-img{
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/ico1.png");
+}
+
+.centralized-img{
+    background-position: center;
+    background-size: cover;
+}
+
+/* Lagura e Altura */
+
+.height-width{
+    height: 200px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.height-width-2{
+    height: 300px;
+    background-color: tomato;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+/* Padding */
+
+.without-padding, .padding {
+    margin-top: 20px;
+    background-color: #111;
+    color: #fff;
+    border: 1px solid black;
+}
+
+.padding{
+    padding: 20px;
+}
+
+/* Padding individual */
+.padding-individual{
+    background-color: #000;
+    color: #fff;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+/* shorthand-padding */
+.shorthand-padding, .shorthand-padding-2, p{
+    color: black;
+}
+
+.shorthand-padding {
+    background-color: #888;
+    padding: 6px 12px 18px 24px;
+}
+
+.shorthand-padding-2{
+    background-color: #a98;
+    padding: 20px 20px;
+}
+
+/* Padding com width */
+
+.without-border-box{
+    background-color: #444;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+}
+
+.border-box-2{
+    background-color: #333;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+/* Borda */
+
+.borda{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+/* Bordas individuais */
+
+.border-left{
+    border-left: 3px solid red;
+    background-color: #335094;
+}
+
+.border-bottom{
+    border-bottom: 3px solid red;
+    background-color: #337001;
+}
+
+/* Borda arredondada */
+
+.rounded-p, .rounded-p-2{
+    background-color: #50b599;
+    color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.rounded-p-2{
+    border: 2px solid black;
+    background-color: #888;
+}
+
+/* Margem */
+
+.margin{
+    background-color: #337001;
+    margin: 10px;
+}
+
+.margin-top{
+    background-color: #337001;
+    margin-top: 10px;
+}
+
+.margin-shorthand{
+    background-color: #337001;
+    margin: 20px 2px 50px 1px;
+}
+
+/* Todos os conteudos do box model */
+.box-model{
+    margin: 20px 5px 20px 5px;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius: 17px;
+    width: 400px;
+    height: 250px;
+}
+
+/* Texto centralizados */
+.texto-centralizados{
+    text-align: center;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 2%;
+}
+
+.texto-centralizados p{
+    color: #1c1061;
+}
+
+/* Text decoration */
+.underline{
+    text-decoration: underline;
+}
+
+.line-trougth{
+    text-decoration: line-through;
+}
+
+.remove-underline{
+    text-decoration: none;
+}
+
+/* Text transform */
+.upper{
+    text-transform: uppercase;
+}
+
+.lower{
+    text-transform: lowercase;
+}
+/* Letter spacing */
+.spacing{
+    letter-spacing: 5px;
+}
+
+/* Fontes */
+.serif{
+    font-family: serif;
+}
+
+.sans-serif{
+    font-family: sans-serif;
+}
+
+/* Fonte Style */
+.italico{
+    font-style: italic;
+}
+
+.oblico{
+    font-style: oblique;
+}
+
+/* Fonte weight */
+
+.thin, .bold, .bolder{
+    font-family: Helvetica;
+}
+
+.thin{
+    font-weight: 100;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.bolder{
+    font-weight: 900;
+}
+
+/* Fonte size */
+
+.small{
+    font-size: 6px;
+}
+
+.big{
+    font-size: 78px;
+}
+
+/* Display */
+
+.display-inline-block{
+    width: 100px;
+    height: 100px;
+    background-color: #50b599;
+    margin: 10px;
+    display: inline-block;
+}
+
+/* Escondendo elementos */
+
+.invisible{
+    display: none;
+}
+
+/* Posicao static */
+
+.static{
+    position: static;
+    background-color: #391;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+}
+
+/* Posicao relative */
+
+.relative{
+    position: relative;
+    background-color: #391;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 40px;
+}
+
+/* Posicao absolute */
+
+.absolute{
+    position: absolute;
+    background-color: #391;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 2px;
+    right: 2px;
+}
+
+
+/* relative com absolute */
+
+.relative-container{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin-top: 20px;
+    position: relative;
+}
+
+.absolute-1, .absolute-2{
+    width: 50px;
+    height: 50px;
+    background-color: #335094;
+    position: absolute;
+}
+
+.absolute-1{
+    top: 10px;
+    left: 10px;
+}
+
+.absolute-2{
+    left: 240px;
+    top: 240px;
+}
+
+/* Posicao fixed */
+
+
+.fixed{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: #a98;
+    position: fixed;
+    top: 50px;
+    right: 100px;
+}
+
+/* Posicao sticky */
+
+.sticky{
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(199, 26, 26);
+    background-color: rgb(214, 116, 17);
+    position: sticky;
+    top: 50px;
+}
+
+/* Z-index */
+
+.absolute-3, .absolute-4, .absolute-5{
+    width: 50px;
+    height: 50px;
+    background-color: #21ee05;
+    position: absolute;
+}
+
+.absolute-3{
+    background-color: yellow;
+    top: 0px;
+    left: 0px;
+}
+
+.absolute-4{
+    background-color: violet;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+}
+
+.absolute-5{
+    top: 20px;
+    left: 20px;
+}
